@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="module.dashboard">
+    <head>
+        <title>ReadyBoard &middot; Scoping Tool <%= (session.admin)? '(Admin)':'' %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+        <link rel="stylesheet" href="/assets/css/theme.css">
+        <link rel="stylesheet" href="/dashboard/css/styles.css">
+
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-touch/1.5.8/angular-touch.min.js"></script>
+        <script src = "//cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.8/angular-sanitize.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.3.0/ui-bootstrap-tpls.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.0.1/ng-file-upload.js"></script>
+        <script src="//maps.google.com/maps/api/js?key=AIzaSyAqBVLXWr2vQhI9zbnxpT7JyTxcHpTvgxs"></script>
+
+
+        <script src="/assets/js/ng-error.js"></script>
+        <script src="/assets/js/ng-map.min.js"></script>
+ 	    <script src='/assets/js/vfs_fonts.js'></script>
+
+        <script src="/dashboard/js/module.dashboard.js"></script>
+        <script src="/dashboard/js/factory.api.js"></script>
+        <script src="/dashboard/js/factory.utils.js"></script>
+        <script src="/dashboard/js/factory.modal.js"></script>
+        <script src="/dashboard/js/controller.app.js"></script>
+        <script src="/dashboard/js/controller.navbars.js"></script>
+        <script src="/dashboard/js/controller.jobs.js"></script>
+        <script src="/dashboard/js/controller.notes.js"></script>
+        <script src="/dashboard/js/controller.images.js"></script>
+        <script src="/dashboard/js/controller.settings.js"></script>
+        <script src="/dashboard/js/controller.slides.js"></script>
+        <script src="/dashboard/js/controller.overview.js"></script>
+        <% if(session.user.admin) { %>
+        <script src="/dashboard/admin/controller.admin.js"></script>
+        <script src="/dashboard/admin/controller.users.js"></script>
+        <script src="/dashboard/admin/controller.groups.js"></script>
+        <% } %>
+    </head>
+    <body ng-controller="controller.app as app" ng-cloak ng-init="app.init()">
+        <nav id="title-bar" class="navbar navbar-inverse navbar-fixed-top">
+            <button
+                aria-hidden="true"
+                class="back-icon glyphicon glyphicon-chevron-left"
+                ng-click="app.back()">
+            </button>
+            <h1 >
+            </h1>
+            <a href="#/settings" class="glyphicon glyphicon-cog" aria-hidden="true"></a>
+            <a href="/logout" class="glyphicon glyphicon-log-out" aria-hidden="true"></a>
+        </nav>
+        <section id="main" class="container-fluid" ng-view></section>
+    </body>
+</html>

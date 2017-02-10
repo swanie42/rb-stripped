@@ -1,0 +1,39 @@
+<h1><span ng-show="$root.active.job._id"
+      class="title clickable text-center ellipsis"
+      ng-click="navbars.select('job')">
+        {{ $root.state.title }}
+</span></h1>
+<nav class="navbar zones">
+
+    <nav class="menu">
+        <ul class="menu-list scrollable-x">
+            <li class="btn"
+                ng-class="{ 'active': zone._id === $root.active.zone._id }"
+                ng-repeat="zone in $root.active.zones"
+                ng-click="navbars.select('zones', zone)">
+                {{ zone.name }}
+            </li>
+        </ul>
+    </nav>
+    <button class="btn btn-edit" ng-click="navbars.modals.zones()">
+        <span class="glyphicon glyphicon-plus btn-add-edit-plus" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-pencil btn-add-edit-pencil" aria-hidden="true"></span>Zones
+    </button>
+</nav>
+<nav class="navbar areas" ng-if="$root.active.zone._id">
+    <nav class="menu">
+        <ul class="menu-list scrollable-x">
+            <li class="btn"
+                ng-class="{ 'active': area._id === $root.active.area._id }"
+                ng-repeat="area in $root.active.areas"
+                ng-click="navbars.select('areas', area)">
+                {{ area.name }}
+            </li>
+        </ul>
+    </nav>
+    <button type="button" class="btn btn-edit" ng-click="navbars.modals.areas()">
+        <span class="glyphicon glyphicon-plus btn-add-edit-plus" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-pencil btn-add-edit-pencil" aria-hidden="true"></span>Area
+    </button>
+
+</nav>

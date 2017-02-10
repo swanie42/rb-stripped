@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+	<div class="panel-heading clickable" ng-click="images.toggle.collapse()">
+		<h4 class="panel-title">{{ images.title }}</h4>
+	</div>
+	<div class="panel-collapse collapse" ng-class="{ 'in': !images.collapsed }">
+		<div class="panel-body no-padding">
+			<div class="no-overflow image-container">
+				<div class="image-wrapper">
+					<img ng-click="images.modal()" ng-src="{{ $root.active.img || '//placehold.it/600x400'}}">
+					<button class="btn image-btn btn-lg" ng-click="images.modal()" type="button">
+						<span aria-hidden="true" class="glyphicon glyphicon-plus"></span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

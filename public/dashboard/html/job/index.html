@@ -1,0 +1,17 @@
+<section id="job" ng-controller="controller.job as job" ng-init="job.init()" class="row">
+    <section
+        ng-controller="controller.navbars as navbars"
+        ng-init="navbars.init()"
+        ng-include="navbars.template">
+    </section>
+    <section
+        ng-if="$root.active.template"
+        ng-include="'/dashboard/html/job/'+ $root.active.template +'.html'">
+    </section>
+
+
+    <section
+        ng-include="'/dashboard/html/modals/template.html'">
+    </section>
+    
+</section>

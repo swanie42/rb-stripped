@@ -1,0 +1,48 @@
+<div ng-controller="controller.slides as slides" ng-init="slides.init($root.active.entity)">
+    <div class="modal-body" >
+        <div class="carousel">
+            <div uib-carousel active="active" no-wrap="noWrapSlides" style="height: 400px">
+                <div uib-slide index="$index"
+                    ng-swipe-left="$parent.$parent.next()"
+                    ng-swipe-right="$parent.$parent.prev()"
+                    ng-repeat="slide in slides.data track by $index">
+                    <img class="full-height" ng-src="{{ slide.url }}" />
+                    <h3 class="slide-count"> Slide {{active+1}} / {{slides.data.length}}</h3>
+                </div>
+            </div>
+            <div class="row" >
+                <div class="col-xs-offset-2 col-xs-8">
+                    <textarea ng-show="slides.data.length" class="form-control text-left form-control-bare caption" placeholder="Image notes ..."
+                        style="color:white;"
+                        ng-model="slides.data[active].caption"
+                        ng-blur="slides.edit.submit()">
+                    </textarea>
+                </div><!-- /.col-lg-6 -->
+            </div><!-- /.row -->
+        </div>
+    </div>
+    <div class="modal-footer clear-fix" >
+        <button ng-show="slides.data.length" type="button" class="btn btn-danger delete-image pull-left" ng-click="slides.delete.submit()">
+           <span class="glyphicon glyphicon-trash"></span> Delete image
+        </button>
+        <button ng-show="slides.data.length" type="button" class="btn btn-default" ng-click="slides.default.submit()">
+            Set as default
+        </button>
+
+        <label class="input-btn">
+            <span class="btn btn-primary" type="file"
+                  ng-model="slides.payload.images"
+                  ngf-pattern="'image/*'"
+                  ngf-accept="'image/*'"
+                  ngf-multiple="true"
+                  ngf-resize="{height: 400}"
+                  ngf-select="slides.add.submit()"
+                  ngf-capture="camera">
+                New Image&hellip;
+            </span>
+        </label>
+    </div>
+    <button type="button" class="btn close-btn btn-lg" data-dismiss="modal">
+        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+    </button>
+</div>

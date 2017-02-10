@@ -1,0 +1,1 @@
+!function(a){a.module("ngError",["ng"]).directive("ngError",["$parse",function(a){return{restrict:"A",compile:function(b,c){var d=a(c.ngError);return function(a,b,c){b.on("error",function(b){a.$apply(function(){d(a,{$event:b})})})}}}}])}(angular);

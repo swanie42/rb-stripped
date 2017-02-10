@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html id="login" ng-app="module.auth">
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,shrink-to-fit=no">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/theme.css">
+        <link rel="stylesheet" href="/login/styles.css">
+
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="/login/module.auth.js"></script>
+    </head>
+    <body ng-controller="module.auth.controller as auth" class="container">
+        <form ng-submit="auth.login.submit()" class="panel panel-default">
+            <div class="panel-heading text-center">
+                <img src="/assets/img/scope.png" alt="Scope Logo" width="128px"/>
+                <footer>StreetBuff</footer>
+            </div>
+            <div class="panel-body">
+                <fieldset class="form-group">
+                    <label type="email" class="sr-only" for="email">Email</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </div>
+                        <input required type="email" placeholder="Email" class="form-control" ng-model="auth.payload.email"/>
+                    </div>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label class="sr-only" for="password">Password</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-lock"></span>
+                        </div>
+                        <input required type="password" placeholder="Password" class="form-control" ng-model="auth.payload.password"/>
+                    </div>
+                </fieldset>
+                <div class="form-group text-center">
+                    <input class="btn btn-lg btn-primary" type="submit" value="Login">
+                </div>
+                <p ng-class="auth.login.alert">{{ auth.login.message }}</p>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<div id="users" ng-controller="controller.users as users" ng-init="users.init()" class="panel panel-default">
+    <div class="panel-heading">Manage Users</div>
+    <div class="panel-body table-responsive">
+        <table class="table users">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Enabled</th>
+                    <th>Admin</th>
+                    <th style="min-width:128px">Group</th>
+                    <th width="40px"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="text" class="form-control" ng-model="users.payload.name" placeholder="bananafuton">
+                    </td>
+                    <td>
+                        <input type="email" class="form-control" ng-model="users.payload.email" placeholder="banana@futon.com">
+                    </td>
+                    <td>
+                        <input type="checkbox" ng-model="users.payload.enabled">
+                    </td>
+                    <td>
+                        <input type="checkbox" ng-model="users.payload.admin">
+                    </td>
+                    <td>
+                        <select class="form-control"
+                            ng-model="users.payload.group"
+                            ng-options="group._id as group.label for group in $root.enums.groups">
+                            <option value="">Select Group</option>
+                        </select>
+                    </td>
+                    <td class="text-right">
+                        <span class="btn btn-primary clickable" ng-click="users.add.submit()">+</span>
+                    </td>
+                </tr>
+                <tr ng-repeat="user in users.data track by $index">
+                    <td>{{ user.name }}</td>
+                    <td>{{ user.email }}</td>
+                    <td>
+                        <input type="checkbox" ng-change="users.edit.submit(user)" ng-model="users.data[$index].enabled">
+                    </td>
+                    <td>
+                        <input type="checkbox" ng-change="users.edit.submit(user)" ng-model="users.data[$index].admin">
+                    </td>
+                    <td>
+                        <select class="form-control"
+                            ng-model="users.data[$index].group"
+                            ng-change="users.edit.submit(user)"
+                            ng-options="group._id as group.label for group in $root.enums.groups">
+                            <option value="">Select Group</option>
+                        </select>
+                    </td>
+                    <td class="text-right">
+                        <span class="btn btn-danger clickable" ng-click="users.delete.submit(user)">&times;</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div id="groups" ng-controller="controller.groups as groups" ng-init="groups.init()" class="panel panel-default">
+    <div class="panel-heading">Manage Groups</div>
+    <div class="panel-body">
+        <div class="col-xs-12">
+            <div class="autocompleter well">
+                <form ng-submit="groups.add.submit()">
+                    <fieldset class="form-group">
+                        <div class="input-group">
+                            <label class="sr-only">Group Label</label>
+                            <input type="text" class="form-control form-search" ng-model="groups.payload.label" placeholder="Group Label">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <span class="glyphicon glyphicon-plus"></span> Add
+                                </button>
+                            </span>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="scrollable scrollable-y list-box">
+                    <ul class="list-group">
+                        <li ng-repeat="group in $root.enums.groups" class="list-group-item list-group-input">
+                            <div class="input-group">
+                                <input type="text" class="form-control" ng-model="group.label">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-delete" ng-click="groups.delete.submit(group)">&times;</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

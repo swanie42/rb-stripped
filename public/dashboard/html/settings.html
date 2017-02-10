@@ -1,0 +1,58 @@
+<div id="settings">
+    <div class="panel panel-default">
+        <div class="panel-heading">Account</div>
+        <form ng-submit="settings.edit.submit()" class="panel-body">
+            <div class="row">
+                <fieldset class="form-group col-xs-12 col-sm-6">
+                    <label class="sr-only" for="name">Username</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span>
+                        </div>
+                        <input placeholder="Name" class="form-control" type="text" ng-model="settings.payload.name"/>
+                    </div>
+                </fieldset>
+                <fieldset class="form-group col-xs-12 col-sm-6">
+                    <label class="sr-only" for="email">Email</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon glyphicon-envelope"></span>
+                        </div>
+                        <input placeholder="Email" class="form-control" type="text" ng-model="settings.payload.email"/>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="row">
+                <fieldset class="form-group col-xs-12 col-sm-6">
+                    <label class="sr-only" for="password">Edit Password</label>
+                    <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                        <input placeholder="Create a password" class="form-control" type="password"
+                        ng-model="settings.payload.password"/>
+                    </div>
+                </fieldset>
+                <fieldset class="form-group col-xs-12 col-sm-6">
+                    <label class="sr-only" for="password">Verify Password</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">
+                            <span class="glyphicon" ng-class="{
+                                'glyphicon-unchecked': !settings.valid.password,
+                                'glyphicon-check': settings.valid.password,
+                                'text-success': settings.valid.password
+                            }"></span>
+                        </div>
+                        <input type="password" placeholder="Create a password" class="form-control"
+                        ng-model="settings.verify.password"/>
+                    </div>
+                </fieldset>
+            </div>
+            <fieldset class="clearfix">
+                <p class="pull-left" ng-class="settings.alert">{{ settings.register.message }}</p>
+                <button type="submit" class="btn btn-primary pull-right">Save</button>
+            </fieldset>
+        </form>
+    </div>
+    <% if(session.user.admin) { %>
+    <section id="admin" class="viewport" ng-controller="controller.admin as admin" ng-include="admin.template"></section>
+    <% } %>
+</div>

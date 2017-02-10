@@ -1,0 +1,477 @@
+/*=====================================================*/
+.job-card {
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+}
+.job-card-title {
+    margin: 0;
+    padding: 10px 15px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.label {
+    font-size: 90%;
+}
+.modal .modal-content {
+    position: relative;
+}
+.modal .modal-header {
+    margin: 0;
+}
+.modal .modal-title {
+    text-transform: capitalize;
+}
+.modal .table {
+    margin: 0;
+}
+.panel {
+    /*margin: 0;*/
+}
+.table td.field {
+    font-weight: bold;
+    background-color: rgba(0,0,0,0.05);
+    padding: 10px;
+    white-space: nowrap;
+    width: 100px;
+}
+.table td.value {
+    padding: 0px;
+    background-color: rgba(255,255,255,0.25);
+}
+.table td.value input[type="checkbox"]{
+    margin: 15px;
+}
+.table td.value .form-control {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 21px 10px;
+}
+.table td.value .form-control:hover,
+.table td.value .form-control:focus,
+.table td.value .form-control:active {
+    background-color: #f0f0f0;
+}
+.toolbar {
+    margin-bottom: 20px;
+}
+
+#activities .list-group-item  {
+    position: relative;
+}
+#activities .list-group-section {
+    margin-right: 60px;
+}
+#activities .list-btn-group {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 5px;
+    background-color: #efefef;
+}
+#activities .list-btn-group .btn {
+    height: 50%;
+    box-sizing: border-box;
+}
+#activities textarea {
+    max-height: 80px;
+    max-width: 100%;
+}
+#activities .list-group-item.text-danger h4 {
+    text-decoration: line-through;
+}
+
+#area {
+    margin-top: 20px;
+}
+
+#job {
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+#job h1 {
+    margin-top: 0;
+}
+#job .activities caption {
+    padding-top: 0;
+}
+#job .activities .form-group {
+    margin-bottom: 10px;
+}
+#job .alert {
+    margin: 15px 15px 0;
+    transition: all ease-in-out 200ms;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#job .btn-add-edit {
+    padding:15px 25px;
+    border-radius: 1px solid grey;
+}
+#job .btn-add-edit-plus {
+    top:3px;
+}
+#job .btn-add-edit-pencil {
+    right:10px;
+    top:8px;
+}
+#job .card-list form {
+    margin-bottom: 0;
+}
+#job .card-list textarea {
+    min-height: 78px;
+    max-height: 120px;
+    min-width: 100%;
+    max-width: 100%;
+}
+#job .card-list-item {
+    background-color: transparent;
+    position: relative;
+    outline: 1px solid #eee;
+    padding: 5px 10px;
+    transition: background-color 300ms ease-in-out;
+    margin-bottom: 25px;
+}
+#job .card-list-item:hover {
+    background-color: #fbfbfb;
+}
+#job .card-list-item textarea {
+    padding: 10px;
+    margin: 3px 0 10px;
+    border: 1px solid transparent;
+    border-bottom-color: #eeeeee;
+}
+#job .card-list-item textarea:focus {
+    border-color: #ddd;
+}
+#job .card-list-item .btn-delete {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+    font-size: 20px;
+}
+#job .close-btn {
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:50px;
+    height:50px;
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+}
+#job .details .table caption {
+    padding: 0;
+}
+#job .details .table caption .btn {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 0;
+    font-size: 1.25em;
+}
+#job .images {
+    background-color: #fefefe;
+    border: 1px solid #dddddd;
+}
+#job .image-btn {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    color: white;
+    height: 50px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 50px;
+}
+#job .image-container {
+    text-align: center;
+}
+#job .image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+#job .map {
+    height: 400px;
+}
+#job .menu-list li {
+    min-width: 100px;
+    text-align: center;
+}
+#job .menu-list {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border: 0;
+    height: 40px;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding-right: 120px;
+}
+#job .modal .caption{
+    color:white;
+    text-align: left;
+}
+#job .modal .slide-count{
+    color:white;
+    text-align: left;
+}
+#job .modal .modal-dialog {
+    max-width: 960px;
+    margin-top: 0;
+    transform: translateY(25%);
+}
+
+#job .modal .thumb-overlay{
+    position: absolute;
+    top: 10px;
+ left: 50%;
+ transform: translateX(-50%);
+}
+#job .modal .caption{
+    font-size: 20;
+}
+#job .modal textarea {
+    min-height: 78px;
+    max-height: 120px;
+}
+#job .modal.wide .modal-dialog {
+    width: 100%;
+}
+#job .modal.dark-back .modal-content {
+    background-color: black;
+}
+#job .modal.scroll .modal-body {
+    overflow-y: auto;
+    max-height: 50vh;
+    padding: 20px;
+}
+#job .modal.scroll .job-modal-body {
+    padding: 20px 30px;
+}
+#job .modal.scroll .job-modal-body hr {
+    margin: 20px 0;
+}
+#job .navbar {
+    border-radius: 0;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.15);
+    left: 0;
+    margin: 0;
+    min-height: 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+#job .navbar.areas {
+    background-color: #e0e0e0;
+    top: 102px;
+}
+#job .navbar.zones {
+    background-color: #efefef;
+    top: 60px;
+}
+#job .navbar .btn {
+    border-radius: 0;
+    font-size: 18px;
+    margin: 0;
+    line-height: 29px;
+    border: 0;
+}
+#job .navbar .btn:hover,
+#job .navbar .btn.active {
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #999999;
+}
+#job .navbar .btn-edit {
+    position: absolute;
+    right: 0;
+    top: -1px;
+    background-color: #fafafa;
+    text-align: left;
+    width: 105px;
+}
+#job .navbar label {
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 10px;
+    margin: 0;
+}
+#job .panel-body {
+    height: 420px;
+}
+#job .scope-selector {
+    font-size: 20px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    width: initial;
+}
+#job .table td {
+    font-size: 16px;
+    vertical-align: middle;
+}
+#job .toolbar .btn {
+    font-size: 0.5em;
+}
+
+#jobs {
+    margin-top: 80px;
+}
+#jobs .toolbar {
+    margin: 0 15px 20px;
+}
+#jobs .toolbar .form-control {
+    display: inline-block;
+    font-size: 20px;
+}
+#jobs .toolbar .form-control[type="text"] {
+    padding: 15px 5px;
+}
+
+#main {
+    transition: width 250ms ease-in-out;
+    top: 0;
+    position: relative;
+    max-width: 1600px;
+}
+#main .section-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#overview {
+    margin-top: 80px;
+}
+
+#settings {
+    margin: 80px 0;
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tasks .list-box {
+    min-height: 200px;
+}
+
+#title-bar {
+    background-color: #051c42;
+    border: none;
+    height: 60px;
+    margin: 0;
+}
+#title-bar a:active,
+#title-bar a:visited,
+#title-bar a,
+#title-bar button {
+    color: #ddd;
+}
+#title-bar a:hover,
+#title-bar button:hover {
+    color: white;
+}
+#title-bar h1 {
+    color: white;
+    font-size: 4vw;
+    line-height: 60px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#title-bar .glyphicon {
+    font-size: 30px;
+    position: absolute;
+    top: 15px;
+}
+#title-bar .glyphicon-log-out {
+    right: 15px;
+}
+#title-bar .glyphicon-cog {
+    right: 60px;
+}
+#title-bar .glyphicon-chevron-left {
+    left: 15px;
+    top: 15px;
+}
+
+#zone {
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    #title-bar h1 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    #job {
+        min-width: 600px;
+        padding: 5px;
+    }
+    #job .panel-body {
+        height: auto;
+        min-height: 200px;
+    }
+}
+@media (min-width: 768px) {
+    #job {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title-bar h1 {
+        font-size: 34px;
+    }
+}
+@media (min-width: 1200px) {
+    #job {
+        width: initial;
+        max-width: 1340px;
+    }
+}
+
+/*pppp*/
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 60px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 0px;
+}

@@ -1,0 +1,745 @@
+action,component,material,method
+Board Up,Door,Metal,Power Tool
+Board Up,Window,Metal,Power Tool
+Clean ,Beams Ceiling,Concrete,Brush
+Clean ,Beams Ceiling,Concrete,Compressed Air
+Clean ,Beams Ceiling,Concrete,Media Blast
+Clean ,Beams Ceiling,Concrete,Pressure Wash - Chemical
+Clean ,Beams Ceiling,Concrete,Pressure Wash - Hot Chemical
+Clean ,Beams Ceiling,Concrete,Pressure Wash - Hot Water
+Clean ,Beams Ceiling,Concrete,Pressure Wash - Water
+Clean ,Beams Ceiling,Concrete,Vaccum - HEPA
+Clean ,Beams Ceiling,Concrete,Vaccum - Wet/Dry
+Clean ,Beams Ceiling,Concrete,Wipe - Dry Cloth
+Clean ,Beams Ceiling,Concrete,Wipe - Dry Sponge
+Clean ,Beams Ceiling,Concrete,Wipe - Water Only
+Clean ,Beams Ceiling,Concrete,Wipe - Wet Heavy Chem
+Clean ,Beams Ceiling,Concrete,Wipe - Wet Light Chem
+Clean ,Beams Ceiling,Spray Foam,Compressed Air
+Clean ,Beams Ceiling,Spray Foam,Vaccum - HEPA
+Clean ,Beams Ceiling,Spray Foam,Vaccum - Wet/Dry
+Clean ,Beams Ceiling,Steel,Apply Rust Inhibitor
+Clean ,Beams Ceiling,Steel,Brush
+Clean ,Beams Ceiling,Steel,Compressed Air
+Clean ,Beams Ceiling,Steel,Media Blast
+Clean ,Beams Ceiling,Steel,Pressure Wash - Chemical
+Clean ,Beams Ceiling,Steel,Pressure Wash - Hot Chemical
+Clean ,Beams Ceiling,Steel,Pressure Wash - Hot Water
+Clean ,Beams Ceiling,Steel,Pressure Wash - Water
+Clean ,Beams Ceiling,Steel,Vaccum - HEPA
+Clean ,Beams Ceiling,Steel,Vaccum - Wet/Dry
+Clean ,Beams Ceiling,Steel,Wipe - Dry Cloth
+Clean ,Beams Ceiling,Steel,Wipe - Dry Sponge
+Clean ,Beams Ceiling,Steel,Wipe - Water Only
+Clean ,Beams Ceiling,Steel,Wipe - Wet Heavy Chem
+Clean ,Beams Ceiling,Steel,Wipe - Wet Light Chem
+Clean ,Beams Ceiling,Wood,Brush
+Clean ,Beams Ceiling,Wood,Compressed Air
+Clean ,Beams Ceiling,Wood,Media Blast
+Clean ,Beams Ceiling,Wood,Vaccum - HEPA
+Clean ,Beams Ceiling,Wood,Vaccum - Wet/Dry
+Clean ,Beams Ceiling,Wood,Wipe - Dry Cloth
+Clean ,Beams Ceiling,Wood,Wipe - Dry Sponge
+Clean ,Beams Ceiling,Wood,Wipe - Water Only
+Clean ,Beams Ceiling,Wood,Wipe - Wet Heavy Chem
+Clean ,Beams Ceiling,Wood,Wipe - Wet Light Chem
+Clean ,Beams Floor,Concrete,Brush
+Clean ,Beams Floor,Concrete,Compressed Air
+Clean ,Beams Floor,Concrete,Media Blast
+Clean ,Beams Floor,Concrete,Pressure Wash - Chemical
+Clean ,Beams Floor,Concrete,Pressure Wash - Hot Chemical
+Clean ,Beams Floor,Concrete,Pressure Wash - Hot Water
+Clean ,Beams Floor,Concrete,Pressure Wash - Water
+Clean ,Beams Floor,Concrete,Vaccum - HEPA
+Clean ,Beams Floor,Concrete,Vaccum - Wet/Dry
+Clean ,Beams Floor,Concrete,Wipe - Dry Cloth
+Clean ,Beams Floor,Concrete,Wipe - Dry Sponge
+Clean ,Beams Floor,Concrete,Wipe - Water Only
+Clean ,Beams Floor,Concrete,Wipe - Wet Heavy Chem
+Clean ,Beams Floor,Concrete,Wipe - Wet Light Chem
+Clean ,Beams Floor,Steel,Apply Rust Inhibitor
+Clean ,Beams Floor,Steel,Brush
+Clean ,Beams Floor,Steel,Compressed Air
+Clean ,Beams Floor,Steel,Media Blast
+Clean ,Beams Floor,Steel,Pressure Wash - Chemical
+Clean ,Beams Floor,Steel,Pressure Wash - Hot Chemical
+Clean ,Beams Floor,Steel,Pressure Wash - Hot Water
+Clean ,Beams Floor,Steel,Pressure Wash - Water
+Clean ,Beams Floor,Steel,Vaccum - HEPA
+Clean ,Beams Floor,Steel,Vaccum - Wet/Dry
+Clean ,Beams Floor,Steel,Wipe - Dry Cloth
+Clean ,Beams Floor,Steel,Wipe - Dry Sponge
+Clean ,Beams Floor,Steel,Wipe - Water Only
+Clean ,Beams Floor,Steel,Wipe - Wet Heavy Chem
+Clean ,Beams Floor,Steel,Wipe - Wet Light Chem
+Clean ,Beams Floor,Wood,Brush
+Clean ,Beams Floor,Wood,Compressed Air
+Clean ,Beams Floor,Wood,Media Blast
+Clean ,Beams Floor,Wood,Vaccum - HEPA
+Clean ,Beams Floor,Wood,Vaccum - Wet/Dry
+Clean ,Beams Floor,Wood,Wipe - Dry Cloth
+Clean ,Beams Floor,Wood,Wipe - Dry Sponge
+Clean ,Beams Floor,Wood,Wipe - Water Only
+Clean ,Beams Floor,Wood,Wipe - Wet Heavy Chem
+Clean ,Beams Floor,Wood,Wipe - Wet Light Chem
+Clean ,Beams Wall,Concrete,Brush
+Clean ,Beams Wall,Concrete,Compressed Air
+Clean ,Beams Wall,Concrete,Media Blast
+Clean ,Beams Wall,Concrete,Pressure Wash - Chemical
+Clean ,Beams Wall,Concrete,Pressure Wash - Hot Chemical
+Clean ,Beams Wall,Concrete,Pressure Wash - Hot Water
+Clean ,Beams Wall,Concrete,Pressure Wash - Water
+Clean ,Beams Wall,Concrete,Vaccum - HEPA
+Clean ,Beams Wall,Concrete,Vaccum - Wet/Dry
+Clean ,Beams Wall,Concrete,Wipe - Dry Cloth
+Clean ,Beams Wall,Concrete,Wipe - Dry Sponge
+Clean ,Beams Wall,Concrete,Wipe - Water Only
+Clean ,Beams Wall,Concrete,Wipe - Wet Heavy Chem
+Clean ,Beams Wall,Concrete,Wipe - Wet Light Chem
+Clean ,Beams Wall,Metal,Brush
+Clean ,Beams Wall,Metal,Compressed Air
+Clean ,Beams Wall,Metal,Media Blast
+Clean ,Beams Wall,Metal,Pressure Wash - Chemical
+Clean ,Beams Wall,Metal,Pressure Wash - Hot Chemical
+Clean ,Beams Wall,Metal,Pressure Wash - Hot Water
+Clean ,Beams Wall,Metal,Pressure Wash - Water
+Clean ,Beams Wall,Metal,Vaccum - HEPA
+Clean ,Beams Wall,Metal,Vaccum - Wet/Dry
+Clean ,Beams Wall,Metal,Wipe - Dry Cloth
+Clean ,Beams Wall,Metal,Wipe - Dry Sponge
+Clean ,Beams Wall,Metal,Wipe - Water Only
+Clean ,Beams Wall,Metal,Wipe - Wet Heavy Chem
+Clean ,Beams Wall,Metal,Wipe - Wet Light Chem
+Clean ,Beams Wall,Spray Foam,Compressed Air
+Clean ,Beams Wall,Spray Foam,Vaccum - HEPA
+Clean ,Beams Wall,Spray Foam,Vaccum - Wet/Dry
+Clean ,Beams Wall,Steel,Apply Rust Inhibitor
+Clean ,Beams Wall,Steel,Brush
+Clean ,Beams Wall,Steel,Compressed Air
+Clean ,Beams Wall,Steel,Media Blast
+Clean ,Beams Wall,Steel,Pressure Wash - Chemical
+Clean ,Beams Wall,Steel,Pressure Wash - Hot Chemical
+Clean ,Beams Wall,Steel,Pressure Wash - Hot Water
+Clean ,Beams Wall,Steel,Pressure Wash - Water
+Clean ,Beams Wall,Steel,Vaccum - HEPA
+Clean ,Beams Wall,Steel,Vaccum - Wet/Dry
+Clean ,Beams Wall,Steel,Wipe - Dry Cloth
+Clean ,Beams Wall,Steel,Wipe - Dry Sponge
+Clean ,Beams Wall,Steel,Wipe - Water Only
+Clean ,Beams Wall,Steel,Wipe - Wet Heavy Chem
+Clean ,Beams Wall,Steel,Wipe - Wet Light Chem
+Clean ,Beams Wall,Wood,Brush
+Clean ,Beams Wall,Wood,Compressed Air
+Clean ,Beams Wall,Wood,Media Blast
+Clean ,Beams Wall,Wood,Vaccum - HEPA
+Clean ,Beams Wall,Wood,Vaccum - Wet/Dry
+Clean ,Beams Wall,Wood,Wipe - Dry Cloth
+Clean ,Beams Wall,Wood,Wipe - Dry Sponge
+Clean ,Beams Wall,Wood,Wipe - Water Only
+Clean ,Beams Wall,Wood,Wipe - Wet Heavy Chem
+Clean ,Beams Wall,Wood,Wipe - Wet Light Chem
+Clean ,Building,Air,Air Scubbers
+Clean ,Bus Duct,Metal,Compressed Air
+Clean ,Bus Duct,Metal,Vaccum - HEPA
+Clean ,Bus Duct,Metal,Vaccum - Wet/Dry
+Clean ,Bus Duct,Metal,Wipe - Dry Cloth
+Clean ,Bus Duct,Metal,Wipe - Dry Sponge
+Clean ,Cabinet Exterior,Metal,Wipe - Dry Cloth
+Clean ,Cabinet Exterior,Metal,Wipe - Dry Sponge
+Clean ,Cabinet Exterior,Metal,Wipe - Water Only
+Clean ,Cabinet Exterior,Metal,Wipe - Wet Heavy Chem
+Clean ,Cabinet Exterior,Metal,Wipe - Wet Light Chem
+Clean ,Cabinet Exterior,Wood,Wipe - Dry Cloth
+Clean ,Cabinet Exterior,Wood,Wipe - Dry Sponge
+Clean ,Cabinet Exterior,Wood,Wipe - Water Only
+Clean ,Cabinet Exterior,Wood,Wipe - Wet Heavy Chem
+Clean ,Cabinet Exterior,Wood,Wipe - Wet Light Chem
+Clean ,Cabinet Interior,Metal,Wipe - Dry Cloth
+Clean ,Cabinet Interior,Metal,Wipe - Dry Sponge
+Clean ,Cabinet Interior,Metal,Wipe - Water Only
+Clean ,Cabinet Interior,Metal,Wipe - Wet Heavy Chem
+Clean ,Cabinet Interior,Metal,Wipe - Wet Light Chem
+Clean ,Cabinet Interior,Wood,Wipe - Dry Cloth
+Clean ,Cabinet Interior,Wood,Wipe - Dry Sponge
+Clean ,Cabinet Interior,Wood,Wipe - Water Only
+Clean ,Cabinet Interior,Wood,Wipe - Wet Heavy Chem
+Clean ,Cabinet Interior,Wood,Wipe - Wet Light Chem
+Clean ,Cabinets,Metal,Wipe - Dry Cloth
+Clean ,Cabinets,Metal,Wipe - Dry Sponge
+Clean ,Cabinets,Metal,Wipe - Water Only
+Clean ,Cabinets,Metal,Wipe - Wet Heavy Chem
+Clean ,Cabinets,Metal,Wipe - Wet Light Chem
+Clean ,Cabinets,Wood,Wipe - Dry Cloth
+Clean ,Cabinets,Wood,Wipe - Dry Sponge
+Clean ,Cabinets,Wood,Wipe - Water Only
+Clean ,Cabinets,Wood,Wipe - Wet Heavy Chem
+Clean ,Cabinets,Wood,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Acoustic Tile,Compressed Air
+Clean ,Ceiling  ,Acoustic Tile,Vaccum - HEPA
+Clean ,Ceiling  ,Acoustic Tile,Wipe - Dry Cloth
+Clean ,Ceiling  ,Acoustic Tile,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Concrete,Brush
+Clean ,Ceiling  ,Concrete,Compressed Air
+Clean ,Ceiling  ,Concrete,Media Blast
+Clean ,Ceiling  ,Concrete,Pressure Wash - Chemical
+Clean ,Ceiling  ,Concrete,Pressure Wash - Hot Chemical
+Clean ,Ceiling  ,Concrete,Pressure Wash - Hot Water
+Clean ,Ceiling  ,Concrete,Pressure Wash - Water
+Clean ,Ceiling  ,Concrete,Vaccum - HEPA
+Clean ,Ceiling  ,Concrete,Vaccum - Wet/Dry
+Clean ,Ceiling  ,Concrete,Wipe - Dry Cloth
+Clean ,Ceiling  ,Concrete,Wipe - Dry Sponge
+Clean ,Ceiling  ,Concrete,Wipe - Water Only
+Clean ,Ceiling  ,Concrete,Wipe - Wet Heavy Chem
+Clean ,Ceiling  ,Concrete,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Corrugated Metal,Apply Rust Inhibitor
+Clean ,Ceiling  ,Corrugated Metal,Brush
+Clean ,Ceiling  ,Corrugated Metal,Compressed Air
+Clean ,Ceiling  ,Corrugated Metal,Media Blast
+Clean ,Ceiling  ,Corrugated Metal,Pressure Wash - Chemical
+Clean ,Ceiling  ,Corrugated Metal,Pressure Wash - Hot Chemical
+Clean ,Ceiling  ,Corrugated Metal,Pressure Wash - Hot Water
+Clean ,Ceiling  ,Corrugated Metal,Pressure Wash - Water
+Clean ,Ceiling  ,Corrugated Metal,Vaccum - HEPA
+Clean ,Ceiling  ,Corrugated Metal,Vaccum - Wet/Dry
+Clean ,Ceiling  ,Corrugated Metal,Wipe - Dry Cloth
+Clean ,Ceiling  ,Corrugated Metal,Wipe - Dry Sponge
+Clean ,Ceiling  ,Corrugated Metal,Wipe - Water Only
+Clean ,Ceiling  ,Corrugated Metal,Wipe - Wet Heavy Chem
+Clean ,Ceiling  ,Corrugated Metal,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Drywall,Brush
+Clean ,Ceiling  ,Drywall,Compressed Air
+Clean ,Ceiling  ,Drywall,Vaccum - HEPA
+Clean ,Ceiling  ,Drywall,Vaccum - Wet/Dry
+Clean ,Ceiling  ,Drywall,Wipe - Dry Cloth
+Clean ,Ceiling  ,Drywall,Wipe - Dry Sponge
+Clean ,Ceiling  ,Drywall,Wipe - Water Only
+Clean ,Ceiling  ,Drywall,Wipe - Wet Heavy Chem
+Clean ,Ceiling  ,Drywall,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Metal,Apply Rust Inhibitor
+Clean ,Ceiling  ,Metal,Brush
+Clean ,Ceiling  ,Metal,Compressed Air
+Clean ,Ceiling  ,Metal,Media Blast
+Clean ,Ceiling  ,Metal,Pressure Wash - Chemical
+Clean ,Ceiling  ,Metal,Pressure Wash - Hot Chemical
+Clean ,Ceiling  ,Metal,Pressure Wash - Hot Water
+Clean ,Ceiling  ,Metal,Pressure Wash - Water
+Clean ,Ceiling  ,Metal,Vaccum - HEPA
+Clean ,Ceiling  ,Metal,Vaccum - Wet/Dry
+Clean ,Ceiling  ,Metal,Wipe - Dry Cloth
+Clean ,Ceiling  ,Metal,Wipe - Dry Sponge
+Clean ,Ceiling  ,Metal,Wipe - Water Only
+Clean ,Ceiling  ,Metal,Wipe - Wet Heavy Chem
+Clean ,Ceiling  ,Metal,Wipe - Wet Light Chem
+Clean ,Ceiling  ,Wood,Brush
+Clean ,Ceiling  ,Wood,Compressed Air
+Clean ,Ceiling  ,Wood,Media Blast
+Clean ,Ceiling  ,Wood,Vaccum - HEPA
+Clean ,Ceiling  ,Wood,Vaccum - Wet/Dry
+Clean ,Ceiling  ,Wood,Wipe - Dry Cloth
+Clean ,Ceiling  ,Wood,Wipe - Dry Sponge
+Clean ,Ceiling  ,Wood,Wipe - Water Only
+Clean ,Ceiling  ,Wood,Wipe - Wet Heavy Chem
+Clean ,Ceiling  ,Wood,Wipe - Wet Light Chem
+Clean ,Content,Misc Material,Vaccum - HEPA
+Clean ,Content,Misc Material,Wipe - Dry Cloth
+Clean ,Content,Misc Material,Wipe - Wet Light Chem
+Clean ,Countertop,Concrete,Brush
+Clean ,Countertop,Concrete,Compressed Air
+Clean ,Countertop,Concrete,Vaccum - HEPA
+Clean ,Countertop,Concrete,Vaccum - Wet/Dry
+Clean ,Countertop,Concrete,Wipe - Dry Cloth
+Clean ,Countertop,Concrete,Wipe - Dry Sponge
+Clean ,Countertop,Concrete,Wipe - Water Only
+Clean ,Countertop,Concrete,Wipe - Wet Heavy Chem
+Clean ,Countertop,Concrete,Wipe - Wet Light Chem
+Clean ,Countertop,Stone,Brush
+Clean ,Countertop,Stone,Compressed Air
+Clean ,Countertop,Stone,Vaccum - HEPA
+Clean ,Countertop,Stone,Vaccum - Wet/Dry
+Clean ,Countertop,Stone,Wipe - Dry Cloth
+Clean ,Countertop,Stone,Wipe - Dry Sponge
+Clean ,Countertop,Stone,Wipe - Water Only
+Clean ,Countertop,Stone,Wipe - Wet Heavy Chem
+Clean ,Countertop,Stone,Wipe - Wet Light Chem
+Clean ,Countertop,Wood,Brush
+Clean ,Countertop,Wood,Compressed Air
+Clean ,Countertop,Wood,Vaccum - HEPA
+Clean ,Countertop,Wood,Vaccum - Wet/Dry
+Clean ,Countertop,Wood,Wipe - Dry Cloth
+Clean ,Countertop,Wood,Wipe - Dry Sponge
+Clean ,Countertop,Wood,Wipe - Water Only
+Clean ,Countertop,Wood,Wipe - Wet Heavy Chem
+Clean ,Countertop,Wood,Wipe - Wet Light Chem
+Clean ,Door,Metal,Brush
+Clean ,Door,Metal,Compressed Air
+Clean ,Door,Metal,Vaccum - HEPA
+Clean ,Door,Metal,Vaccum - Wet/Dry
+Clean ,Door,Metal,Wipe - Dry Cloth
+Clean ,Door,Metal,Wipe - Dry Sponge
+Clean ,Door,Metal,Wipe - Water Only
+Clean ,Door,Metal,Wipe - Wet Heavy Chem
+Clean ,Door,Metal,Wipe - Wet Light Chem
+Clean ,Door,Wood,Brush
+Clean ,Door,Wood,Compressed Air
+Clean ,Door,Wood,Vaccum - HEPA
+Clean ,Door,Wood,Vaccum - Wet/Dry
+Clean ,Door,Wood,Wipe - Dry Cloth
+Clean ,Door,Wood,Wipe - Dry Sponge
+Clean ,Door,Wood,Wipe - Water Only
+Clean ,Door,Wood,Wipe - Wet Heavy Chem
+Clean ,Door,Wood,Wipe - Wet Light Chem
+Clean ,Electrical Fixtures,Misc Material,Vaccum - HEPA
+Clean ,Electrical Fixtures,Misc Material,Wipe - Dry Cloth
+Clean ,Electrical Fixtures,Misc Material,Wipe - Wet Light Chem
+Clean ,Exterior Building,Brick Masonry,Media Blast
+Clean ,Exterior Building,Brick Masonry,Pressure Wash - Chemical
+Clean ,Exterior Building,Brick Masonry,Pressure Wash - Hot Chemical
+Clean ,Exterior Building,Brick Masonry,Pressure Wash - Hot Water
+Clean ,Exterior Building,Brick Masonry,Pressure Wash - Water
+Clean ,Exterior Building,Brick Masonry,Vaccum - HEPA
+Clean ,Exterior Building,Brick Masonry,Wipe - Dry Sponge
+Clean ,Exterior Building,Brick Masonry,Wipe - Water Only
+Clean ,Exterior Building,Brick Masonry,Wipe - Wet Heavy Chem
+Clean ,Exterior Building,Brick Masonry,Wipe - Wet Light Chem
+Clean ,Exterior Building,Concrete,Media Blast
+Clean ,Exterior Building,Concrete,Pressure Wash - Chemical
+Clean ,Exterior Building,Concrete,Pressure Wash - Hot Chemical
+Clean ,Exterior Building,Concrete,Pressure Wash - Hot Water
+Clean ,Exterior Building,Concrete,Pressure Wash - Water
+Clean ,Exterior Building,Concrete,Vaccum - HEPA
+Clean ,Exterior Building,Concrete,Wipe - Dry Sponge
+Clean ,Exterior Building,Concrete,Wipe - Water Only
+Clean ,Exterior Building,Concrete,Wipe - Wet Heavy Chem
+Clean ,Exterior Building,Concrete,Wipe - Wet Light Chem
+Clean ,Exterior Building,Fiberglass,Media Blast
+Clean ,Exterior Building,Fiberglass,Pressure Wash - Chemical
+Clean ,Exterior Building,Fiberglass,Pressure Wash - Hot Chemical
+Clean ,Exterior Building,Fiberglass,Pressure Wash - Hot Water
+Clean ,Exterior Building,Fiberglass,Pressure Wash - Water
+Clean ,Exterior Building,Fiberglass,Vaccum - HEPA
+Clean ,Exterior Building,Fiberglass,Wipe - Dry Sponge
+Clean ,Exterior Building,Fiberglass,Wipe - Water Only
+Clean ,Exterior Building,Fiberglass,Wipe - Wet Heavy Chem
+Clean ,Exterior Building,Fiberglass,Wipe - Wet Light Chem
+Clean ,Exterior Building,Metal,Media Blast
+Clean ,Exterior Building,Metal,Pressure Wash - Chemical
+Clean ,Exterior Building,Metal,Pressure Wash - Hot Chemical
+Clean ,Exterior Building,Metal,Pressure Wash - Hot Water
+Clean ,Exterior Building,Metal,Pressure Wash - Water
+Clean ,Exterior Building,Metal,Vaccum - HEPA
+Clean ,Exterior Building,Metal,Wipe - Dry Sponge
+Clean ,Exterior Building,Metal,Wipe - Water Only
+Clean ,Exterior Building,Metal,Wipe - Wet Heavy Chem
+Clean ,Exterior Building,Metal,Wipe - Wet Light Chem
+Clean ,Exterior Grounds,Concrete,Sweep - Broom
+Clean ,Exterior Grounds,Concrete,Pressure Wash - Chemical
+Clean ,Exterior Grounds,Concrete,Pressure Wash - Hot Chemical
+Clean ,Exterior Grounds,Concrete,Pressure Wash - Hot Water
+Clean ,Exterior Grounds,Concrete,Pressure Wash - Water
+Clean ,Floor,Carpet,Brush
+Clean ,Floor,Carpet,Extractor - Truck Mount - Clean
+Clean ,Floor,Carpet,Vaccum - HEPA
+Clean ,Floor,Carpet,Vaccum - Wet/Dry
+Clean ,Floor,Concrete,Brush
+Clean ,Floor,Concrete,Mop
+Clean ,Floor,Concrete,Pressure Wash - Chemical
+Clean ,Floor,Concrete,Pressure Wash - Hot Chemical
+Clean ,Floor,Concrete,Pressure Wash - Hot Water
+Clean ,Floor,Concrete,Pressure Wash - Water
+Clean ,Floor,Concrete,Scraping - Hand Tools
+Clean ,Floor,Concrete,Sweep - Broom
+Clean ,Floor,Concrete,Vaccum - HEPA
+Clean ,Floor,Concrete,Vaccum - Wet/Dry
+Clean ,Floor,Concrete,Wipe - Water Only
+Clean ,Floor,Sheet Goods,Brush
+Clean ,Floor,Sheet Goods,Mop
+Clean ,Floor,Sheet Goods,Pressure Wash - Chemical
+Clean ,Floor,Sheet Goods,Pressure Wash - Hot Chemical
+Clean ,Floor,Sheet Goods,Pressure Wash - Hot Water
+Clean ,Floor,Sheet Goods,Pressure Wash - Water
+Clean ,Floor,Sheet Goods,Sweep - Broom
+Clean ,Floor,Sheet Goods,Vaccum - HEPA
+Clean ,Floor,Sheet Goods,Vaccum - Wet/Dry
+Clean ,Floor,Sheet Goods,Wipe - Water Only
+Clean ,Floor,Stone,Brush
+Clean ,Floor,Stone,Mop
+Clean ,Floor,Stone,Pressure Wash - Chemical
+Clean ,Floor,Stone,Pressure Wash - Hot Chemical
+Clean ,Floor,Stone,Pressure Wash - Hot Water
+Clean ,Floor,Stone,Pressure Wash - Water
+Clean ,Floor,Stone,Sweep - Broom
+Clean ,Floor,Stone,Vaccum - HEPA
+Clean ,Floor,Stone,Vaccum - Wet/Dry
+Clean ,Floor,Stone,Wipe - Water Only
+Clean ,Floor,Tile,Brush
+Clean ,Floor,Tile,Mop
+Clean ,Floor,Tile,Pressure Wash - Chemical
+Clean ,Floor,Tile,Pressure Wash - Hot Chemical
+Clean ,Floor,Tile,Pressure Wash - Hot Water
+Clean ,Floor,Tile,Pressure Wash - Water
+Clean ,Floor,Tile,Sweep - Broom
+Clean ,Floor,Tile,Vaccum - HEPA
+Clean ,Floor,Tile,Vaccum - Wet/Dry
+Clean ,Floor,Tile,Wipe - Water Only
+Clean ,Floor,VCT (Vinyl),Brush
+Clean ,Floor,VCT (Vinyl),Mop
+Clean ,Floor,VCT (Vinyl),Pressure Wash - Chemical
+Clean ,Floor,VCT (Vinyl),Pressure Wash - Hot Chemical
+Clean ,Floor,VCT (Vinyl),Pressure Wash - Hot Water
+Clean ,Floor,VCT (Vinyl),Pressure Wash - Water
+Clean ,Floor,VCT (Vinyl),Sweep - Broom
+Clean ,Floor,VCT (Vinyl),Vaccum - HEPA
+Clean ,Floor,VCT (Vinyl),Vaccum - Wet/Dry
+Clean ,Floor,VCT (Vinyl),Wipe - Water Only
+Clean ,Floor,Wood,Brush
+Clean ,Floor,Wood,Mop
+Clean ,Floor,Wood,Sweep - Broom
+Clean ,Floor,Wood,Vaccum - HEPA
+Clean ,Floor,Wood,Vaccum - Wet/Dry
+Clean ,Floor,Wood,Wipe - Water Only
+Clean ,HVAC - Exterior,Metal,Brush
+Clean ,HVAC - Exterior,Metal,Vaccum - HEPA
+Clean ,HVAC - Exterior,Metal,Vaccum - Wet/Dry
+Clean ,HVAC - Exterior,Metal,Wipe - Dry Cloth
+Clean ,HVAC - Exterior,Metal,Wipe - Water Only
+Clean ,HVAC - Exterior,Metal,Wipe - Wet Heavy Chem
+Clean ,HVAC - Exterior,Metal,Wipe - Wet Light Chem
+Clean ,HVAC - Interior ,Metal,Air Whip
+Clean ,HVAC - Interior ,Metal,Brush
+Clean ,HVAC - Interior ,Metal,Compressed Air
+Clean ,HVAC - Interior ,Metal,Vaccum - HEPA
+Clean ,HVAC - Interior ,Metal,Vaccum - Wet/Dry
+Clean ,HVAC - Interior ,Metal,Wipe - Water Only
+Clean ,HVAC - Interior ,Metal,Wipe - Wet Heavy Chem
+Clean ,HVAC - Interior ,Metal,Wipe - Wet Light Chem
+Clean ,Piping,Metal,Vaccum - HEPA
+Clean ,Piping,Metal,Wipe - Water Only
+Clean ,Piping,Metal,Wipe - Wet Heavy Chem
+Clean ,Piping,Metal,Wipe - Wet Light Chem
+Clean ,Plumbing Fixture,Misc Material,Vaccum - HEPA
+Clean ,Plumbing Fixture,Misc Material,Wipe - Water Only
+Clean ,Rack/Shelves,Metal,Compressed Air
+Clean ,Rack/Shelves,Metal,Vaccum - HEPA
+Clean ,Rack/Shelves,Metal,Wipe - Water Only
+Clean ,Wall,Concrete,Brush
+Clean ,Wall,Concrete,Compressed Air
+Clean ,Wall,Concrete,Media Blast
+Clean ,Wall,Concrete,Pressure Wash - Chemical
+Clean ,Wall,Concrete,Pressure Wash - Hot Chemical
+Clean ,Wall,Concrete,Pressure Wash - Hot Water
+Clean ,Wall,Concrete,Pressure Wash - Water
+Clean ,Wall,Concrete,Vaccum - HEPA
+Clean ,Wall,Concrete,Vaccum - Wet/Dry
+Clean ,Wall,Concrete,Wipe - Dry Cloth
+Clean ,Wall,Concrete,Wipe - Dry Sponge
+Clean ,Wall,Concrete,Wipe - Water Only
+Clean ,Wall,Concrete,Wipe - Wet Heavy Chem
+Clean ,Wall,Concrete,Wipe - Wet Light Chem
+Clean ,Wall,Corrugated Metal,Apply Rust Inhibitor
+Clean ,Wall,Corrugated Metal,Brush
+Clean ,Wall,Corrugated Metal,Compressed Air
+Clean ,Wall,Corrugated Metal,Media Blast
+Clean ,Wall,Corrugated Metal,Pressure Wash - Chemical
+Clean ,Wall,Corrugated Metal,Pressure Wash - Hot Chemical
+Clean ,Wall,Corrugated Metal,Pressure Wash - Hot Water
+Clean ,Wall,Corrugated Metal,Pressure Wash - Water
+Clean ,Wall,Corrugated Metal,Vaccum - HEPA
+Clean ,Wall,Corrugated Metal,Vaccum - Wet/Dry
+Clean ,Wall,Corrugated Metal,Wipe - Dry Cloth
+Clean ,Wall,Corrugated Metal,Wipe - Dry Sponge
+Clean ,Wall,Corrugated Metal,Wipe - Water Only
+Clean ,Wall,Corrugated Metal,Wipe - Wet Heavy Chem
+Clean ,Wall,Corrugated Metal,Wipe - Wet Light Chem
+Clean ,Wall,Drywall,Brush
+Clean ,Wall,Drywall,Compressed Air
+Clean ,Wall,Drywall,Vaccum - HEPA
+Clean ,Wall,Drywall,Vaccum - Wet/Dry
+Clean ,Wall,Drywall,Wipe - Dry Cloth
+Clean ,Wall,Drywall,Wipe - Dry Sponge
+Clean ,Wall,Drywall,Wipe - Water Only
+Clean ,Wall,Drywall,Wipe - Wet Heavy Chem
+Clean ,Wall,Drywall,Wipe - Wet Light Chem
+Clean ,Wall,Metal,Apply Rust Inhibitor
+Clean ,Wall,Metal,Brush
+Clean ,Wall,Metal,Compressed Air
+Clean ,Wall,Metal,Media Blast
+Clean ,Wall,Metal,Pressure Wash - Chemical
+Clean ,Wall,Metal,Pressure Wash - Hot Chemical
+Clean ,Wall,Metal,Pressure Wash - Hot Water
+Clean ,Wall,Metal,Pressure Wash - Water
+Clean ,Wall,Metal,Vaccum - HEPA
+Clean ,Wall,Metal,Vaccum - Wet/Dry
+Clean ,Wall,Metal,Wipe - Dry Cloth
+Clean ,Wall,Metal,Wipe - Dry Sponge
+Clean ,Wall,Metal,Wipe - Water Only
+Clean ,Wall,Metal,Wipe - Wet Heavy Chem
+Clean ,Wall,Metal,Wipe - Wet Light Chem
+Clean ,Wall,Wood,Brush
+Clean ,Wall,Wood,Compressed Air
+Clean ,Wall,Wood,Media Blast
+Clean ,Wall,Wood,Vaccum - HEPA
+Clean ,Wall,Wood,Vaccum - Wet/Dry
+Clean ,Wall,Wood,Wipe - Dry Cloth
+Clean ,Wall,Wood,Wipe - Dry Sponge
+Clean ,Wall,Wood,Wipe - Water Only
+Clean ,Wall,Wood,Wipe - Wet Heavy Chem
+Clean ,Wall,Wood,Wipe - Wet Light Chem
+Contain,Ceiling  ,Misc Material,Poly <1 Mil and Tape
+Contain,Ceiling  ,Misc Material,Poly 6 Mil And Poles
+Contain,Ceiling  ,Misc Material,Poly 6 Mil and Tape
+Contain,Door,Misc Material,Poly <1 Mil and Tape
+Contain,Door,Misc Material,Poly 6 Mil And Poles
+Contain,Door,Misc Material,Poly 6 Mil and Tape
+Contain,Wall,Misc Material,Poly <1 Mil and Tape
+Contain,Wall,Misc Material,Poly 6 Mil And Poles
+Contain,Wall,Misc Material,Poly 6 Mil and Tape
+Contain,Window,Misc Material,Poly <1 Mil and Tape
+Contain,Window,Misc Material,Poly 6 Mil And Poles
+Contain,Window,Misc Material,Poly 6 Mil and Tape
+Demo,Cabinets,Metal,Cart and Dispose
+Demo,Cabinets,Metal,Disassemble
+Demo,Cabinets,Metal,Dispose
+Demo,Cabinets,Metal,Hand Power Tools
+Demo,Cabinets,Metal,Hand Tools
+Demo,Cabinets,Wood,Cart and Dispose
+Demo,Cabinets,Wood,Disassemble
+Demo,Cabinets,Wood,Dispose
+Demo,Cabinets,Wood,Hand Power Tools
+Demo,Cabinets,Wood,Hand Tools
+Demo,Ceiling  ,Acoustic Tile,Bag and Dispose
+Demo,Ceiling  ,Acoustic Tile,Cart and Dispose
+Demo,Ceiling  ,Acoustic Tile,Hand Tools
+Demo,Ceiling  ,Drywall,Bag and Dispose
+Demo,Ceiling  ,Drywall,Cart and Dispose
+Demo,Ceiling  ,Drywall,Hand Power Tools
+Demo,Ceiling  ,Drywall,Hand Tools
+Demo,Ceiling  ,Drywall - Double,Bag and Dispose
+Demo,Ceiling  ,Drywall - Double,Cart and Dispose
+Demo,Ceiling  ,Drywall - Double,Hand Power Tools
+Demo,Ceiling  ,Drywall - Double,Hand Tools
+Demo,Ceiling  ,Insulation,Bag and Dispose
+Demo,Ceiling  ,Insulation,Cart and Dispose
+Demo,Ceiling  ,Insulation,Hand Power Tools
+Demo,Ceiling  ,Insulation,Hand Tools
+Demo,Ceiling  ,Plaster,Bag and Dispose
+Demo,Ceiling  ,Plaster,Cart and Dispose
+Demo,Ceiling  ,Plaster,Hand Power Tools
+Demo,Ceiling  ,Plaster,Hand Tools
+Demo,Ceiling  ,Spray Foam,Bag and Dispose
+Demo,Ceiling  ,Spray Foam,Cart and Dispose
+Demo,Ceiling  ,Spray Foam,Hand Power Tools
+Demo,Ceiling  ,Spray Foam,Hand Tools
+Demo,Ceiling  ,Wood,Bag and Dispose
+Demo,Ceiling  ,Wood,Cart and Dispose
+Demo,Ceiling  ,Wood,Hand Power Tools
+Demo,Ceiling  ,Wood,Hand Tools
+Demo,Door,Metal,Hand Tools
+Demo,Door,Wood,Hand Tools
+Demo,Floor,Carpet,Bag and Dispose
+Demo,Floor,Carpet,Hand Tools
+Demo,Floor,Rubber,Bag and Dispose
+Demo,Floor,Rubber,Hand Tools
+Demo,Floor,Sheet Goods,Bag and Dispose
+Demo,Floor,Sheet Goods,Hand Tools
+Demo,Floor,Tile,Bag and Dispose
+Demo,Floor,Tile,Cart and Dispose
+Demo,Floor,Tile,Hand Power Tools
+Demo,Floor,Tile,Hand Tools
+Demo,Floor,VCT (Vinyl),Bag and Dispose
+Demo,Floor,VCT (Vinyl),Hand Tools
+Demo,Floor,Wood,Bag and Dispose
+Demo,Floor,Wood,Cart and Dispose
+Demo,Floor,Wood,Hand Power Tools
+Demo,Floor,Wood,Hand Tools
+Demo,Rack/Shelves,Metal,Bag and Dispose
+Demo,Rack/Shelves,Metal,Cart and Dispose
+Demo,Rack/Shelves,Metal,Hand Power Tools
+Demo,Rack/Shelves,Metal,Hand Tools
+Demo,Wall,Drywall,Bag and Dispose
+Demo,Wall,Drywall,Cart and Dispose
+Demo,Wall,Drywall,Hand Power Tools
+Demo,Wall,Drywall,Hand Tools
+Demo,Wall,Drywall - Double,Bag and Dispose
+Demo,Wall,Drywall - Double,Cart and Dispose
+Demo,Wall,Drywall - Double,Hand Power Tools
+Demo,Wall,Drywall - Double,Hand Tools
+Demo,Wall,Insulation,Bag and Dispose
+Demo,Wall,Insulation,Cart and Dispose
+Demo,Wall,Insulation,Hand Tools
+Demo,Wall,Paneling,Bag and Dispose
+Demo,Wall,Paneling,Cart and Dispose
+Demo,Wall,Paneling,Hand Power Tools
+Demo,Wall,Paneling,Hand Tools
+Demo,Wall,Plaster,Bag and Dispose
+Demo,Wall,Plaster,Cart and Dispose
+Demo,Wall,Plaster,Hand Power Tools
+Demo,Wall,Plaster,Hand Tools
+Demo,Wall,Spray Foam,Bag and Dispose
+Demo,Wall,Spray Foam,Cart and Dispose
+Demo,Wall,Spray Foam,Hand Power Tools
+Demo,Wall,Spray Foam,Hand Tools
+Demo,Wall,Wood,Bag and Dispose
+Demo,Wall,Wood,Cart and Dispose
+Demo,Wall,Wood,Hand Power Tools
+Demo,Wall,Wood,Hand Tools
+Deodorize,Building,Air,Air Scubbers
+Deodorize,Building,Air,Bad Air Sponge
+Deodorize,Building,Air,Elephant Nose
+Deodorize,Building,Air,Hydroxyl
+Deodorize,Building,Air,Ozone
+Deodorize,Building,Air,Pump Spray
+Deodorize,Building,Air,Thermal Fog
+Detach,Cabinets,Wood,Hand Power Tools
+Detach,Cabinets,Metal,Hand Power Tools
+Detach,Electrical Fixtures,Misc Material,Hand Tools
+Detach,Plumbing Fixture,Misc Material,Hand Tools
+Detach,Rack/Shelves,Misc Material,Hand Tools
+Detach,Railing ,Misc Material,Hand Tools
+Dry,Building,Air,Air Movers
+Dry,Building,Air,Air Scubbers
+Dry,Building,Air,Chiller/DX Unit
+Dry,Building,Air,Dehumidifier - Desiccant
+Dry,Building,Air,Dehumidifier - LGR
+Encapsulate,Beams Ceiling,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Beams Ceiling,Misc Material,Paint - Hand - Latex
+Encapsulate,Beams Ceiling,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Beams Ceiling,Misc Material,Paint - Sprayer - Shallac
+Encapsulate,Beams Floor,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Beams Floor,Misc Material,Paint - Hand - Latex
+Encapsulate,Beams Floor,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Beams Floor,Misc Material,Paint - Sprayer - Shallac
+Encapsulate,Beams Wall,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Beams Wall,Misc Material,Paint - Hand - Latex
+Encapsulate,Beams Wall,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Beams Wall,Misc Material,Paint - Sprayer - Shallac
+Encapsulate,Ceiling  ,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Ceiling  ,Misc Material,Paint - Hand - Latex
+Encapsulate,Ceiling  ,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Ceiling  ,Misc Material,Paint - Sprayer - Shallac
+Encapsulate,Floor,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Floor,Misc Material,Paint - Hand - Latex
+Encapsulate,Floor,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Floor,Misc Material,Paint - Sprayer - Shallac
+Encapsulate,Wall,Misc Material,Paint - Hand  - Shallac
+Encapsulate,Wall,Misc Material,Paint - Hand - Latex
+Encapsulate,Wall,Misc Material,Paint - Sprayer - Latex
+Encapsulate,Wall,Misc Material,Paint - Sprayer - Shallac
+Extract,Floor,Carpet,Extractor - Hand (Squeegee, Mop)
+Extract,Floor,Carpet,Extractor - Portable
+Extract,Floor,Carpet,Extractor - Truck Mount - Black
+Extract,Floor,Carpet,Extractor - Truck Mount - Clean
+Extract,Floor,Concrete,Extractor - Hand (Squeegee, Mop)
+Extract,Floor,Concrete,Extractor - Portable
+Extract,Floor,Concrete,Extractor - Truck Mount - Black
+Extract,Floor,Concrete,Extractor - Truck Mount - Clean
+Extract,Floor,Tile,Extractor - Hand (Squeegee, Mop)
+Extract,Floor,Tile,Extractor - Portable
+Extract,Floor,Tile,Extractor - Truck Mount - Black
+Extract,Floor,Tile,Extractor - Truck Mount - Clean
+Extract,Floor,VCT (Vinyl),Extractor - Hand (Squeegee, Mop)
+Extract,Floor,VCT (Vinyl),Extractor - Portable
+Extract,Floor,VCT (Vinyl),Extractor - Truck Mount - Black
+Extract,Floor,VCT (Vinyl),Extractor - Truck Mount - Clean
+Extract,Floor,Wood,Extractor - Hand (Squeegee, Mop)
+Extract,Floor,Wood,Extractor - Portable
+Extract,Floor,Wood,Extractor - Truck Mount - Black
+Extract,Floor,Wood,Extractor - Truck Mount - Clean
+Manipulate,Content,Misc Material,Move to Another Area onsite
+Manipulate,Content,Misc Material,Move to Another Building
+Manipulate,Content,Misc Material,Move to Another Room
+Manipulate,Content,Misc Material,Move to Center of Room
+Manipulate,Content,Misc Material,Move to Storage Container
+Manipulate,Content,Misc Material,Move to Storage Offsite
+Monitor,Building,Air,Hand Tools
+Muck Out,Floor,Carpet,Extractor - < 1in pump
+Muck Out,Floor,Carpet,Extractor - > 1in pump
+Muck Out,Floor,Carpet,Extractor - Hand (Squeegee, Mop)
+Muck Out,Floor,Carpet,Extractor - Portable
+Muck Out,Floor,Carpet,Extractor - Truck Mount - Black
+Muck Out,Floor,Carpet,Extractor - Truck Mount - Clean
+Muck Out,Floor,Carpet,Extractor - Vac Truck
+Muck Out,Floor,Concrete,Extractor - < 1in pump
+Muck Out,Floor,Concrete,Extractor - > 1in pump
+Muck Out,Floor,Concrete,Extractor - Hand (Squeegee, Mop)
+Muck Out,Floor,Concrete,Extractor - Portable
+Muck Out,Floor,Concrete,Extractor - Truck Mount - Black
+Muck Out,Floor,Concrete,Extractor - Truck Mount - Clean
+Muck Out,Floor,Concrete,Extractor - Vac Truck
+Muck Out,Floor,Tile,Extractor - < 1in pump
+Muck Out,Floor,Tile,Extractor - > 1in pump
+Muck Out,Floor,Tile,Extractor - Hand (Squeegee, Mop)
+Muck Out,Floor,Tile,Extractor - Portable
+Muck Out,Floor,Tile,Extractor - Truck Mount - Black
+Muck Out,Floor,Tile,Extractor - Truck Mount - Clean
+Muck Out,Floor,Tile,Extractor - Vac Truck
+Muck Out,Floor,VCT (Vinyl),Extractor - < 1in pump
+Muck Out,Floor,VCT (Vinyl),Extractor - > 1in pump
+Muck Out,Floor,VCT (Vinyl),Extractor - Hand (Squeegee, Mop)
+Muck Out,Floor,VCT (Vinyl),Extractor - Portable
+Muck Out,Floor,VCT (Vinyl),Extractor - Truck Mount - Black
+Muck Out,Floor,VCT (Vinyl),Extractor - Truck Mount - Clean
+Muck Out,Floor,VCT (Vinyl),Extractor - Vac Truck
+Muck Out,Floor,Wood,Extractor - < 1in pump
+Muck Out,Floor,Wood,Extractor - > 1in pump
+Muck Out,Floor,Wood,Extractor - Hand (Squeegee, Mop)
+Muck Out,Floor,Wood,Extractor - Portable
+Muck Out,Floor,Wood,Extractor - Truck Mount - Black
+Muck Out,Floor,Wood,Extractor - Truck Mount - Clean
+Muck Out,Floor,Wood,Extractor - Vac Truck
+Pack Up,Content,Misc Material,Bagging
+Pack Up,Content,Misc Material,Boxing
+Protect,Floor,Carpet,Floor Protection - Paper
+Protect,Floor,Carpet,Floor Protection - Plastic
+Protect,Floor,Carpet,Floor Protection - Plywood
+Protect,Floor,Carpet,Floor Protection - Ram Board
+Protect,Floor,Concrete,Floor Protection - Paper
+Protect,Floor,Concrete,Floor Protection - Plastic
+Protect,Floor,Concrete,Floor Protection - Plywood
+Protect,Floor,Concrete,Floor Protection - Ram Board
+Protect,Floor,Tile,Floor Protection - Paper
+Protect,Floor,Tile,Floor Protection - Plastic
+Protect,Floor,Tile,Floor Protection - Plywood
+Protect,Floor,Tile,Floor Protection - Ram Board
+Protect,Floor,VCT (Vinyl),Floor Protection - Paper
+Protect,Floor,VCT (Vinyl),Floor Protection - Plastic
+Protect,Floor,VCT (Vinyl),Floor Protection - Plywood
+Protect,Floor,VCT (Vinyl),Floor Protection - Ram Board
+Protect,Floor,Wood,Floor Protection - Paper
+Protect,Floor,Wood,Floor Protection - Plastic
+Protect,Floor,Wood,Floor Protection - Plywood
+Protect,Floor,Wood,Floor Protection - Ram Board
+Protect,Content,Misc Material,Poly <1 Mil and Tape
+Protect,Content,Misc Material,Poly 6 Mil and Tape
+Protect,Content,Misc Material,Wrap Contents - Bubble
+Protect,Content,Misc Material,Wrap Contents - Pad/Blanket
+Protect,Content,Misc Material,Wrap Contents - Bubble
+Protect,Piping,Misc Material,Poly 6 Mil and Tape
+Protect,Countertop,Misc Material,Floor Protection - Ram Board
+Sanitize,Building,Air,Elephant Nose
+Sanitize,Building,Air,Pump Spray
+Sanitize,Beams Ceiling,Misc Material,Pump Spray
+Sanitize,Beams Ceiling,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Beams Floor,Misc Material,Pump Spray
+Sanitize,Beams Floor,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Beams Wall,Misc Material,Pump Spray
+Sanitize,Beams Wall,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Cabinets,Misc Material,Pump Spray
+Sanitize,Cabinets,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Content,Misc Material,Pump Spray
+Sanitize,Content,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Exterior Grounds,Misc Material,Pump Spray
+Sanitize,Exterior Grounds,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Floor,Misc Material,Pump Spray
+Sanitize,Floor,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,HVAC - Interior ,Misc Material,Pump Spray
+Sanitize,HVAC - Interior ,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Rack/Shelves,Misc Material,Pump Spray
+Sanitize,Rack/Shelves,Misc Material,Wipe - Wet Heavy Chem
+Sanitize,Wall,Misc Material,Pump Spray
+Sanitize,Wall,Misc Material,Wipe - Wet Heavy Chem
+Stabilize,Building,Air,Air Movers
+Stabilize,Building,Air,Air Scubbers
+Stabilize,Building,Air,Dehumidifier - Desiccant
+Stabilize,Building,Air,Dehumidifier - LGR
+Stabilize,Building,Air,Chiller/DX Unit

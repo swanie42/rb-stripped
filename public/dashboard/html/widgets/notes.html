@@ -1,0 +1,65 @@
+<!-- <div class="panel panel-default">
+	<div class="panel-heading clickable" ng-click="job.notes.toggle()">
+		<h4 class="panel-title">{{ notes.title }} Notes</h4>
+	</div>
+	<div class="panel-collapse collapse" ng-class="{ 'in': !job.notes.in }">
+		<div class="panel-body scrollable scrollable-y">
+			<div class="notes card-list">
+				<form ng-submit="notes.add.submit()" class="col-xs-12">
+					<fieldset class="form-group">
+						<textarea class="form-control note-edit-area" ng-model="notes.payload.text" placeholder="Add notes about this {{ notes.entity.type }}..."></textarea>
+					</fieldset>
+					<div class="form-group text-right">
+						<button class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span> Add</button>
+					</div>
+				</form>
+				<div class="col-xs-12 col-sm-6" ng-repeat="note in notes.data | orderBy: '-created' track by $index">
+					<div class="card-list-item">
+						<textarea class="form-control-bare note-edit-area" ng-blur="notes.edit.submit(note)" ng-model="note.text"></textarea>
+						<footer>
+							<b>{{ note.user.name }}</b>
+							<p>@: <span class="note-date text-muted">{{ note.created | date:'medium' }}</span></p>
+						</footer>
+						<button class="btn btn-xs btn-delete btn-close" ng-click="notes.delete.submit(note, $index)" ng-if="note.user._id === $root.session._id" type="button"><span aria-hidden="true"><b class="text-danger">&times;</b></span></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+    <div class="panel panel-primary">
+            <div class="panel-heading clickable" ng-click="job.notes.toggle()">
+                <span class="glyphicon glyphicon-comment"></span>
+				<span class="panel-title">{{ notes.title }} Notes</span>
+            </div>
+			<div class="panel-collapse collapse" ng-class="{ 'in': !job.notes.in }">
+                <div class="panel-body scrollable scrollable-y">
+						<ul class="chat">
+	                        <li ng-repeat="note in notes.data | orderBy: 'created' track by $index" class="left clearfix">
+								<span class="chat-img pull-left">
+	                            <img src="//placehold.it/50/55C1E7/fff&text={{note.user.name | limitTo : 1}}" alt="User Avatar" class="img-circle" />
+	                        </span>
+                            <button class="btn btn-md btn-delete btn-close pull-right" ng-click="notes.delete.submit(note, $index)" ng-if="note.user._id === $root.session._id" type="button"><span aria-hidden="true"><b class="text-danger">&times;</b></span></button>
+
+	                            <div class="chat-body clearfix">
+	                                <div class="header">
+	                                    <strong class="primary-font">{{ note.user.name }}</strong> <small class="pull-right text-muted">
+	                                        <span class="glyphicon glyphicon-time"></span>{{ note.created | date:'MMM d, y h:mm a' }}</small>
+	                                </div>
+	                                <p>{{note.text}}</p>
+	                            </div>
+	                        </li>
+	                    </ul>
+                </div>
+            <div class="panel-footer">
+                <form class="input-group" ng-submit="notes.add.submit()">
+                    <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here..." ng-model="notes.payload.text"/>
+                    <span class="input-group-btn">
+                        <button class="btn btn-warning btn-sm" id="btn-chat">
+                            Send</button>
+                    </span>
+                </form>
+            </div>
+
+        </div>
+    </div>

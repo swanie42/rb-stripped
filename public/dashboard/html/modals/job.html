@@ -1,0 +1,142 @@
+<form ng-submit="job.edit.submit()" class="form-horizontal">
+    <div class="job-modal-body modal-body">
+        <fieldset class="form-group">
+            <label class="col-xs-2 control-label">Name</label>
+            <div class="col-xs-10">
+                <input class="form-control" type="text" ng-model="job.payload.name" placeholder="Name">
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <label class="col-xs-2 control-label">Contact</label>
+            <div class="col-xs-4">
+                <input class="form-control" type="text" ng-model="job.payload.contact" placeholder="Contact">
+            </div>
+            <label class="col-xs-2 control-label">Phone</label>
+            <div class="col-xs-4">
+                <input class="form-control" type="phone" ng-model="job.payload.phone" placeholder="Phone">
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <label class="col-xs-2 control-label">Address</label>
+            <div class="col-xs-10">
+                <input class="form-control" type="text" ng-model="job.payload.address" placeholder="Street Address">
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <label class="col-xs-2 control-label">City</label>
+            <div class="col-xs-7">
+                <input class="form-control" type="text" ng-model="job.payload.city" placeholder="City">
+            </div>
+            <label class="col-xs-1 control-label">State</label>
+            <div class="col-xs-2">
+                <input class="form-control" type="text" ng-model="job.payload.state" placeholder="State">
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <label class="col-xs-2">Description</label>
+            <div class="col-xs-10">
+                <textarea class="form-control" rows="6" ng-model="job.payload.description" placeholder="Description"></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <label class="col-xs-2">Est. SqFt.</label>
+            <div class="col-xs-10">
+                <input class="form-control" type="number" ng-model="job.payload.sqft" placeholder="20000">
+            </div>
+        </fieldset>
+        <br>
+        <fieldset class="form-group">
+            <div class="col-xs-6">
+                <label>Industry</label>
+                <select class="form-control"
+                    ng-model="job.payload.industry"
+                    ng-options="industry for industry in job.enums.industries">
+                    <option value="" disabled selected>Select an industry</option>
+                </select>
+            </div>
+            <div class="col-xs-6">
+                <label>Job Type</label>
+                <select class="form-control"
+                    ng-model="job.payload.type"
+                    ng-options="referral for referral in job.enums.types">
+                    <option value="" disabled selected>Select a job type</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <div class="col-xs-6">
+                <label>Type of Loss</label>
+                <select class="form-control"
+                    ng-model="job.payload.lossType"
+                    ng-options="type for type in job.enums.losses.types">
+                    <option value="" disabled selected>Select a type of loss</option>
+                </select>
+            </div>
+            <div class="col-xs-6">
+                <label>Cause of Loss</label>
+                <select class="form-control"
+                    ng-model="job.payload.cause"
+                    ng-options="cause for cause in job.enums.losses.causes">
+                    <option value="" disabled selected>Select a cause of loss</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <div class="col-xs-6">
+                <label>Project Coordinator</label>
+                <select class="form-control"
+                    ng-model="job.payload.pc"
+                    ng-options="pc for pc in job.enums.pcs">
+                    <option value="" disabled selected>Select a Project Coordinator</option>
+                </select>
+            </div>
+            <div class="col-xs-6">
+                <label>Project Manager</label>
+                <select class="form-control"
+                    ng-model="job.payload.pm"
+                    ng-options="pm for pm in job.enums.pms">
+                    <option value="" disabled selected>Select a Project Manager</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <div class="col-xs-6">
+                <label>Referral Source</label>
+                <select class="form-control"
+                    ng-model="job.payload.referralSource"
+                    ng-options="referral for referral in job.enums.referrals">
+                    <option value="" disabled selected>Select a referral source</option>
+                </select>
+            </div>
+            <div class="col-xs-6">
+                <label>Job Status</label>
+                <select class="form-control"
+                    ng-model="job.payload.status"
+                    ng-options="status for status in job.enums.status">
+                    <option value="" disabled selected>Select a status</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="form-group">
+            <div class="col-xs-6">
+                <label>Local ServPro Franchise Name</label>
+                <input class="form-control"
+                    ng-model="job.payload.localServpro"
+                    placeholder="Enter a ServPro Franchise Name">
+                </input>
+            </div>
+            <div class="col-xs-6">
+                <label>Local SP Involvement</label>
+                <select class="form-control"
+                    ng-model="job.payload.localServproInvolv"
+                    ng-options="localServproInvolv for localServproInvolv in job.enums.localServproInvolvs">
+                    <option value="" disabled selected>Select involvement</option>
+                </select>
+            </div>
+        </fieldset>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

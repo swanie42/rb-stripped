@@ -1,0 +1,21 @@
+<section ng-controller="controller.overview as overview" id="overview" ng-init="overview.init()">
+    <div id="exportthis">
+        <h1 style="margin-top: 50px"> Job Name: {{overview.scope.job.name}} </h1>
+        <h1> Scope Name: {{overview.scope.name}} </h1>
+        <h1>{{overview.scope.change}} </h1>
+        <!-- <button type="submit" class="btn btn-primary" ng-click="overview.generateReport">FIRE DA REPORT BOMB!</button> -->
+
+        <button type="button" class="btn btn-edit" ng-click="overview.modals.report()"> Email Report
+        <span class="glyphicon glyphicon-plus btn-add-edit-plus" aria-hidden="true"></span>
+        <span class="glyphicon glyphicon-pencil btn-add-edit-pencil" aria-hidden="true"></span>
+      </button>
+
+        <button type="button" class="btn btn-edit" ng-click="overview.pdf()"> Download PDF Report
+
+    </button>
+
+        <section ng-include="'/dashboard/html/modals/template.html'">
+        </section>
+
+    </div>
+</section>

@@ -1,0 +1,16 @@
+{
+  "name": "readyboard-scoping-tool-scripts-populate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "activities": "npm run activities.drop && npm run activities.populate && npm run activities.associate",
+    "activities.drop": "node activity-attrs --run drop",
+    "activities.populate": "node activities.js --run populate",
+    "activities.associate": "node activities.js --run associate",
+    "scopes": "node scopes.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
